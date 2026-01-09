@@ -1,0 +1,42 @@
+{
+  "name": "@sharpapi/sharpapi-node-hospitality-categories",
+  "version": "1.0.0",
+  "description": "SharpAPI.com Node.js SDK for generating hospitality product categories",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sharpapi",
+    "ai-powered",
+    "ai capabilities",
+    "api",
+    "ai api",
+    "api integration",
+    "artificial intelligence",
+    "natural language processing",
+    "restful api",
+    "nodejs",
+    "software development",
+    "travel",
+    "tourism",
+    "hospitality",
+    "hotels",
+    "product categories"
+  ],
+  "author": "Dawid Makowski <contact@sharpapi.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@sharpapi/sharpapi-node-core": "file:../sharpapi-node-core"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharpapi/sharpapi-node-hospitality-categories.git"
+  }
+}
