@@ -5,6 +5,15 @@ const { SharpApiCoreService, SharpApiJobTypeEnum } = require('@sharpapi/sharpapi
  */
 class SharpApiHospitalityCategoriesService extends SharpApiCoreService {
   /**
+   * Creates a new SharpApiHospitalityCategoriesService instance
+   * @param {string} apiKey - Your SharpAPI API key
+   * @param {string} [apiBaseUrl='https://sharpapi.com/api/v1'] - API base URL
+   */
+  constructor(apiKey, apiBaseUrl = 'https://sharpapi.com/api/v1') {
+    super(apiKey, apiBaseUrl, '@sharpapi/sharpapi-node-hospitality-categories/1.0.1');
+  }
+
+  /**
    * Generates a list of suitable categories for the Hospitality type product
    * with relevance weights as float value (1.0-10.0) where 10 equals 100%, the highest relevance score.
    * Provide the product name and its parameters to get the best category matches possible.
